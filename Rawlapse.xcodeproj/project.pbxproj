@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD80A501A98775E00300118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD80A4F1A98775E00300118 /* AppDelegate.swift */; };
+		1AD80A521A98775E00300118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD80A511A98775E00300118 /* ViewController.swift */; };
+		1AD80A551A98775E00300118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD80A531A98775E00300118 /* Main.storyboard */; };
+		1AD80A571A98775E00300118 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD80A561A98775E00300118 /* Images.xcassets */; };
+		1AD80A5A1A98775E00300118 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD80A581A98775E00300118 /* LaunchScreen.xib */; };
+		1AD80A661A98775E00300118 /* RawlapseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD80A651A98775E00300118 /* RawlapseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD80A601A98775E00300118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD80A421A98775E00300118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD80A491A98775E00300118;
+			remoteInfo = Rawlapse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD80A4A1A98775E00300118 /* Rawlapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rawlapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD80A4E1A98775E00300118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD80A4F1A98775E00300118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD80A511A98775E00300118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AD80A541A98775E00300118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD80A561A98775E00300118 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AD80A591A98775E00300118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AD80A5F1A98775E00300118 /* RawlapseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawlapseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD80A641A98775E00300118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD80A651A98775E00300118 /* RawlapseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawlapseTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD80A471A98775E00300118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD80A5C1A98775E00300118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD80A411A98775E00300118 = {
+			isa = PBXGroup;
+			children = (
+				1AD80A4C1A98775E00300118 /* Rawlapse */,
+				1AD80A621A98775E00300118 /* RawlapseTests */,
+				1AD80A4B1A98775E00300118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD80A4B1A98775E00300118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD80A4A1A98775E00300118 /* Rawlapse.app */,
+				1AD80A5F1A98775E00300118 /* RawlapseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD80A4C1A98775E00300118 /* Rawlapse */ = {
+			isa = PBXGroup;
+			children = (
+				1AD80A4F1A98775E00300118 /* AppDelegate.swift */,
+				1AD80A511A98775E00300118 /* ViewController.swift */,
+				1AD80A531A98775E00300118 /* Main.storyboard */,
+				1AD80A561A98775E00300118 /* Images.xcassets */,
+				1AD80A581A98775E00300118 /* LaunchScreen.xib */,
+				1AD80A4D1A98775E00300118 /* Supporting Files */,
+			);
+			path = Rawlapse;
+			sourceTree = "<group>";
+		};
+		1AD80A4D1A98775E00300118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD80A4E1A98775E00300118 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD80A621A98775E00300118 /* RawlapseTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD80A651A98775E00300118 /* RawlapseTests.swift */,
+				1AD80A631A98775E00300118 /* Supporting Files */,
+			);
+			path = RawlapseTests;
+			sourceTree = "<group>";
+		};
+		1AD80A631A98775E00300118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD80A641A98775E00300118 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD80A491A98775E00300118 /* Rawlapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD80A691A98775E00300118 /* Build configuration list for PBXNativeTarget "Rawlapse" */;
+			buildPhases = (
+				1AD80A461A98775E00300118 /* Sources */,
+				1AD80A471A98775E00300118 /* Frameworks */,
+				1AD80A481A98775E00300118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rawlapse;
+			productName = Rawlapse;
+			productReference = 1AD80A4A1A98775E00300118 /* Rawlapse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD80A5E1A98775E00300118 /* RawlapseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD80A6C1A98775E00300118 /* Build configuration list for PBXNativeTarget "RawlapseTests" */;
+			buildPhases = (
+				1AD80A5B1A98775E00300118 /* Sources */,
+				1AD80A5C1A98775E00300118 /* Frameworks */,
+				1AD80A5D1A98775E00300118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD80A611A98775E00300118 /* PBXTargetDependency */,
+			);
+			name = RawlapseTests;
+			productName = RawlapseTests;
+			productReference = 1AD80A5F1A98775E00300118 /* RawlapseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD80A421A98775E00300118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ela;
+				TargetAttributes = {
+					1AD80A491A98775E00300118 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1AD80A5E1A98775E00300118 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1AD80A491A98775E00300118;
+					};
+				};
+			};
+			buildConfigurationList = 1AD80A451A98775E00300118 /* Build configuration list for PBXProject "Rawlapse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD80A411A98775E00300118;
+			productRefGroup = 1AD80A4B1A98775E00300118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD80A491A98775E00300118 /* Rawlapse */,
+				1AD80A5E1A98775E00300118 /* RawlapseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD80A481A98775E00300118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD80A551A98775E00300118 /* Main.storyboard in Resources */,
+				1AD80A5A1A98775E00300118 /* LaunchScreen.xib in Resources */,
+				1AD80A571A98775E00300118 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD80A5D1A98775E00300118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD80A461A98775E00300118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD80A521A98775E00300118 /* ViewController.swift in Sources */,
+				1AD80A501A98775E00300118 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD80A5B1A98775E00300118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD80A661A98775E00300118 /* RawlapseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD80A611A98775E00300118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD80A491A98775E00300118 /* Rawlapse */;
+			targetProxy = 1AD80A601A98775E00300118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD80A531A98775E00300118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD80A541A98775E00300118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD80A581A98775E00300118 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD80A591A98775E00300118 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD80A671A98775E00300118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD80A681A98775E00300118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD80A6A1A98775E00300118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rawlapse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AD80A6B1A98775E00300118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rawlapse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AD80A6D1A98775E00300118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RawlapseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rawlapse.app/Rawlapse";
+			};
+			name = Debug;
+		};
+		1AD80A6E1A98775E00300118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RawlapseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rawlapse.app/Rawlapse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD80A451A98775E00300118 /* Build configuration list for PBXProject "Rawlapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD80A671A98775E00300118 /* Debug */,
+				1AD80A681A98775E00300118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD80A691A98775E00300118 /* Build configuration list for PBXNativeTarget "Rawlapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD80A6A1A98775E00300118 /* Debug */,
+				1AD80A6B1A98775E00300118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AD80A6C1A98775E00300118 /* Build configuration list for PBXNativeTarget "RawlapseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD80A6D1A98775E00300118 /* Debug */,
+				1AD80A6E1A98775E00300118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD80A421A98775E00300118 /* Project object */;
+}
