@@ -7,12 +7,38 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var captureSession: AVCaptureSession!;
+
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.captureSession = AVCaptureSession();
+        var videoDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
+        
+        var error: NSError?
+        var videoInput = AVCaptureDeviceInput(device: videoDevice, error: &error)
+        self.captureSession.addInput(videoInput)
+        
+        var previewLayer: AVCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: self.captureSession)
+        previewLayer.frame = self.view.frame
+        previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+        self.view.layer.addSublayer(previewLayer)
+        
+        self.captureSession.startRunning()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.captureSession.startRunning()
     }
 
     override func didReceiveMemoryWarning() {
