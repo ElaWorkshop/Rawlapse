@@ -21,13 +21,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.captureSession = AVCaptureSession();
-        var videoDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
+        let videoDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
         
         var error: NSError?
-        var videoInput = AVCaptureDeviceInput(device: videoDevice, error: &error)
+        let videoInput = AVCaptureDeviceInput(device: videoDevice, error: &error)
         self.captureSession.addInput(videoInput)
         
-        var previewLayer: AVCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: self.captureSession)
+        let previewLayer: AVCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: self.captureSession)
         previewLayer.frame = self.view.frame
         previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
         self.view.layer.addSublayer(previewLayer)
